@@ -31,7 +31,7 @@ namespace ExceptionHandling
             }
             else
             {
-                app.UseStatusCodePagesWithReExecute("/Home/Missing","?statusCode={0}");
+                app.UseStatusCodePagesWithReExecute("/Home/Missing");
                 app.UseExceptionHandler("/Home/Error");     
             }
 

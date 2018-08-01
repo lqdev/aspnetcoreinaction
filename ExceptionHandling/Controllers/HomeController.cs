@@ -40,9 +40,9 @@ namespace ExceptionHandling.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult Missing(int? statusCode = null)
+        public IActionResult Missing()
         {
-            return View(statusCode.ToString());
+            return View();
         }
     }
 }
