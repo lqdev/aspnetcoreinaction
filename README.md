@@ -6,4 +6,7 @@ This repo contains content and exercises from the [ASP.NET Core in Action](https
 - Chapter 2
     - WebApplication2
 - Chapter 3
-    - Welcome Page
+    - WelcomePage
+    - StaticSite
+    - MVCWebApp
+    - Exception Handling
