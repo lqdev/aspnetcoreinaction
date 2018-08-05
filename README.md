@@ -10,3 +10,6 @@ This repo contains content and exercises from the [ASP.NET Core in Action](https
     - StaticSite
     - MVCWebApp
     - Exception Handling
+- Chapter4
+    - AddingMVCToEmptyProject
+        
