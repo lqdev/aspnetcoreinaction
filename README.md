@@ -12,4 +12,8 @@ This repo contains content and exercises from the [ASP.NET Core in Action](https
     - Exception Handling
 - Chapter4
     - AddingMVCToEmptyProject
+- Chapter 7
+    - AddingRazorViews    
+    - PassingData
+    - UsingLayouts
         

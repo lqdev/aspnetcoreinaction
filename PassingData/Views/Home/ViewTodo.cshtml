@@ -1,0 +1,24 @@
+@using PassingData.ViewModels
+@model TodoViewModel
+@{
+    ViewData["Title"] = "Tasks for Today";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    @if(Model.IsComplete)
+    {
+        <strong>Well done, you're all done!</strong>
+    }
+    else
+    {
+        <p>The following tasks remain: </p>
+        <ol>
+        @foreach(var task in Model.Tasks)
+        {
+            <li>@task</li>
+        }
+        </ol>        
+    }
+</div>
