@@ -16,4 +16,6 @@ This repo contains content and exercises from the [ASP.NET Core in Action](https
     - AddingRazorViews    
     - PassingData
     - UsingLayouts
+- Chapter 8
+    - CurrencyConverterTagHelpers    
         
