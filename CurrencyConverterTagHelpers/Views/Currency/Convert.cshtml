@@ -1,20 +1,21 @@
 @model CurrencyConverterModel
 
-<form>
+<form asp-action="Convert" asp-controller="Currency">
     <div class="form-group">
         <label asp-for="CurrencyFrom"></label>
-        <input class="form-control" asp-for="CurrencyFrom"/>
+        <input asp-for="CurrencyFrom" class="form-control"/>
         <span asp-validation-for="CurrencyFrom"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Quantity"></label>
-        <input class="form-control" asp-for="Quantity"/>
-        <span asp-validation-for="Quantity"></span>
-    </div>
-    <div class="form-group">
         <label asp-for="CurrencyTo"></label>
-        <input class="form-control" asp-for="CurrencyTo"/>
+        <input asp-for="CurrencyTo" class="form-control"/>
         <span asp-validation-for="CurrencyTo"></span>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>        
+    <div class="form-group">
+        <label asp-for="Quantity"></label>
+        <input asp-for="Quantity" class="form-control"/>
+        <span asp-validation-for="Quantity"></span>
+    </div>
+    <button type="submit">Submit</button>
+    <div asp-validation-summary="All"></div>
 </form>
