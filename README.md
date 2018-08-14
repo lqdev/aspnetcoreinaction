@@ -17,5 +17,7 @@ This repo contains content and exercises from the [ASP.NET Core in Action](https
     - PassingData
     - UsingLayouts
 - Chapter 8
-    - CurrencyConverterTagHelpers    
+    - CurrencyConverterTagHelpers
+- Chapter 9
+    - FirstAPIController    
         

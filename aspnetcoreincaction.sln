@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingLayouts", "UsingLayout
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverterTagHelpers", "CurrencyConverterTagHelpers\CurrencyConverterTagHelpers.csproj", "{5DEFF735-FF72-4AAE-ABD2-D055CE5293F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstAPIController", "FirstAPIController\FirstAPIController.csproj", "{73F54A67-F8C5-476D-A890-A52566BDC6BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -156,5 +158,17 @@ Global
 		{5DEFF735-FF72-4AAE-ABD2-D055CE5293F8}.Release|x64.Build.0 = Release|Any CPU
 		{5DEFF735-FF72-4AAE-ABD2-D055CE5293F8}.Release|x86.ActiveCfg = Release|Any CPU
 		{5DEFF735-FF72-4AAE-ABD2-D055CE5293F8}.Release|x86.Build.0 = Release|Any CPU
+		{73F54A67-F8C5-476D-A890-A52566BDC6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F54A67-F8C5-476D-A890-A52566BDC6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F54A67-F8C5-476D-A890-A52566BDC6BC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{73F54A67-F8C5-476D-A890-A52566BDC6BC}.Debug|x64.Build.0 = Debug|Any CPU
+		{73F54A67-F8C5-476D-A890-A52566BDC6BC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{73F54A67-F8C5-476D-A890-A52566BDC6BC}.Debug|x86.Build.0 = Debug|Any CPU
+		{73F54A67-F8C5-476D-A890-A52566BDC6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F54A67-F8C5-476D-A890-A52566BDC6BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F54A67-F8C5-476D-A890-A52566BDC6BC}.Release|x64.ActiveCfg = Release|Any CPU
+		{73F54A67-F8C5-476D-A890-A52566BDC6BC}.Release|x64.Build.0 = Release|Any CPU
+		{73F54A67-F8C5-476D-A890-A52566BDC6BC}.Release|x86.ActiveCfg = Release|Any CPU
+		{73F54A67-F8C5-476D-A890-A52566BDC6BC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
