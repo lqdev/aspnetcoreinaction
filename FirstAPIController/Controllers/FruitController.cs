@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace FirstAPIController.Controllers
 {
+    [Route("api/[controller]")]
     public class FruitController : Controller
     {
         List<string> _fruits = new List<string> {
@@ -11,11 +12,13 @@ namespace FirstAPIController.Controllers
             "Peach"
         };
 
+        [Route("/")]
         public IEnumerable<string> Index()
         {
             return _fruits;
         }
 
+        [Route("/{id}")]
         public IActionResult View(int id)
         {
             if(id >= 0 && id < _fruits.Count)
